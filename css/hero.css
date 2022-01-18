@@ -27,3 +27,16 @@ header img {
  	padding: 0 0 0 50px;
  }
  
+ .uppercase {
+ 	text-transform: uppercase;
+ }
+
+ .huge {
+ 	text-align: center;
+ 	font-size: 100px;
+ 	padding: 100px;
+ 	color: #F677A5;
+
+ 	-webkit-text-stroke-width: 0.4px; 
+ 	-webkit-text-stroke-color: white;
+ }
