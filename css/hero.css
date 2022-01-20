@@ -50,3 +50,10 @@ h2 {
  	-webkit-text-stroke-width: 0.5px; 
  	-webkit-text-stroke-color: black;
  }
+
+ .box {
+	margin: 15px;
+	padding: 10px;
+
+	background-color: #F677A5;
+}
