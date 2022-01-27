@@ -3,6 +3,11 @@ body {
 	margin: 0px;
 }
 
+main {
+	background-color: #F677A5;
+	margin: 15px;
+}
+
 header {
 	background-color: #F677A5;
 	padding: 50px;
@@ -28,10 +33,9 @@ h2 {
  	display: flex;
  	align-items: center;
  	justify-content: center;
- 	padding: 0 0 0 60px;
  }
 
- .text {
+ .headerText {
  	display: inline-block;
  	text-align: left;
  	padding: 0 0 0 40px;
@@ -51,9 +55,25 @@ h2 {
  	-webkit-text-stroke-color: black;
  }
 
- .box {
-	margin: 15px;
-	padding: 200px;
+.container {
+	width: 100%;
+	background-color: #F677A5;
+
+	display: flex;
+}
+
+ .inspectorBox {
+	width: 80%;
+	height: 700px;
 
 	background-color: #F677A5;
+	border: 1px solid yellow;
+}
+
+.pantherBox {
+	width: 80%;
+	height: 700px;
+
+	background-color: #F677A5;
+	border-left: 1px solid yellow;
 }
